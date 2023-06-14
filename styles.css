@@ -1,0 +1,17 @@
+.cabecalho{
+    display: flex;
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    align-content: space-around;
+    text-decoration: none;
+    color: white;
+    margin: 10px 32px;
+}
+
+.logo{
+    width: 6%;
+}
+

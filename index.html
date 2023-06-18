@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Pisante de Rua </title>
 </head>
@@ -12,7 +13,7 @@
     <header class="cabecalho">
         <nav class="navbar">
             <img src="./assets/logo_branco.png" alt="Logo Pisante de Rua" class="logo"/> 
-            <ul>
+            <ul class="lista-nav">
                 <a href="#">Quem somos</a>
                 <a href="#">Nosso time</a>
                 <a href="#">Nossos produtos</a>
@@ -21,33 +22,45 @@
     </header>
     <main>
         <!--Carousel-->
-        <section class="carousel-section">
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/carousel-01.jpg" alt="Primeiro Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/carousel-02.jpg" alt="Segundo Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/carousel-03.jpg" alt="Terceiro Slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/carousel-04.jpg" alt="Terceiro Slide">
+        <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="infor-banner">
+                  <h4>Encontre o melhor Pisante para o seu rolê</h4>
+                  <div class="bt-linkcarousel">
+                    <a href="#">Conferir</a>
                   </div>
                 </div>
+                <img class="d-block w-100" src="./assets/carousel-04.jpg" alt="Primeiro Slide">
               </div>
+              <div class="carousel-item">
+                
+                <img class="d-block w-100" src="./assets/carousel-02.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                
+                
+                <img class="d-block w-100" src="./assets/carousel-03.jpg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="./assets/carousel-04.jpg" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
         </section>
         <!--Quem somos-->
-        <section>
+        <section class="quem somos">
             <div>
-                <h3>Titulo</h3>
+                <h3>Somos uma Familia que se formou em  ladeiras e ruas</h3>
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
                     e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja 
                     de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu 

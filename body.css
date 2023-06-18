@@ -39,9 +39,6 @@ body{
     margin-top: 20px;
 }
 
-.bt-linkcarousel a{
-    color: black;
-}
 
 .bt-linkcarousel a:hover{
     text-decoration: none;
@@ -68,4 +65,13 @@ body{
     width: 10%;
     height: 10%;
     border-radius: 50%;
+}
+
+
+/*Nosso time*/
+
+.contanier-socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 }

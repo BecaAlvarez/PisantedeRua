@@ -1,0 +1,16 @@
+.rodape{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+
+.logo-footer{
+    width: 10%;
+    
+}
+

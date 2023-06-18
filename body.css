@@ -1,3 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*Carousel*/
 .carousel-item{
     display: flex;
@@ -49,6 +55,7 @@
     height: 100%;
     flex-direction: row;
     background-color: #acacac;
+    
 }
 
 .text-contanier{
@@ -58,7 +65,7 @@
 }
 
 .who-are-we img{
-    width: 16%;
+    width: 10%;
     height: 10%;
     border-radius: 50%;
 }

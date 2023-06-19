@@ -4,9 +4,17 @@ body{
 }
 
 
+
 /*Carousel*/
 .carousel-item{
     display: flex;
+}
+
+
+
+.carousel-inner img{
+    height: 100vh;
+    
 }
 
 .infor-banner{

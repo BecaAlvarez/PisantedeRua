@@ -1,7 +1,42 @@
 /*Nosso time*/
+.nossotime{
+    margin: 5%;
+    
+}
 
-.contanier-socialmedia{
+.nossotime__titulo{
+    color: #DD8217;
+    font-weight: 700;
+    font-size: 3.2em;
+    width: 16%;
+    flex-wrap: wrap;
+}
+
+.nossotime__contanier{
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20%;
+    margin-top: 10%;
+}
+
+.nossotime__card{
+    margin: 2% 5%;
+    background-color: #f5cfa5;
+    position: relative;
+    padding: 4% 2%;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.nossotime__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70%;
+    right: 4%;
 }

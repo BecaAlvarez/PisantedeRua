@@ -19,12 +19,13 @@
     justify-content: center;
     top: 10%;
     bottom: auto;
-    left: 20%;
+    left: 22%;
 }
 
 .infor-banner p{
-    font-size: 40pt;
-    font-weight: 700;
+    font-size: 4em;
+    font-weight: bold;
+    
 }
 
 .bt-linkcarousel{

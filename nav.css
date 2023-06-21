@@ -12,21 +12,25 @@
     
 }
 
+.navbar__list{
+    display: flex;
+    flex-direction: row;
+}
 
-ul a{
+.navbar__link{
     margin: 5px 20px;
     padding: 10;
     text-decoration: none;
     color: #acacac;
 }
 
-ul a:hover{
+.navbar__link:hover{
     text-decoration: none;
     color: white;
 }
 
 
-.logo{
+.navbar__logo{
     width: 6%;
 }
 

@@ -1,0 +1,31 @@
+/*Quem somos*/
+.quemsomos{
+    display: flex;
+    flex-direction: row;
+    background-color: #acacac;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quemsomos__contaniertext{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.quemsomos__titulo{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.quemsomos__text{
+    font-size: 1.2em;
+    
+}
+
+.quemsomos__img{
+   
+    border-radius: 50%;
+}

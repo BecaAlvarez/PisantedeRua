@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+    
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/quemsomos.css">
+    <link rel="stylesheet" href="./css/nossotime.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="body.css">
     <title>Pisante de Rua </title>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="navbar">
-            <img src="./assets/logo_branco.png" alt="Logo Pisante de Rua" class="logo"/> 
-            <ul class="lista-nav">
-                <a href="#">Quem somos</a>
-                <a href="#">Nosso time</a>
-                <a href="#">Nossos produtos</a>
+            <img src="./assets/logo_branco.png" alt="Logo Pisante de Rua" class="navbar__logo"/> 
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="#" class="navbar__link">Quem somos</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Nosso time</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Nossos produtos</a></li>
             </ul>
         </nav>
     </header>
@@ -58,16 +65,17 @@
             </div>
         </section>
         <!--Quem somos-->
-        <section class="who-are-we">
-            <div class="text-contanier">
-                <h3>Somos uma Familia que se formou em  ladeiras e ruas</h3>
-                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
-                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja 
-                    de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu 
-                    não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo 
-                    essencialmente inalterado.</p>
-            </div>
-            <img src="./assets/quemsomos.jpg" alt="grupo de pessoas"/>
+        <section class="quemsomos">
+            <article class="quemsomos__contaniertext">
+                <h3 class="quemsomos__titulo">Somos uma Familia que se formou em  ladeiras e ruas</h3>
+                <p class="quemsomos__text"> Temos o skateboarding na veia e no coração. Skate é muito mais do que um esporte,
+                  é uma forma de expressão artística, uma maneira de se desafiar e de se conectar com o mundo ao redor.
+                  É uma rede de apoio, inspiração e amizade que impulsiona o crescimento e o desenvolvimento do skateboarding como um todo.
+                  É a união de pessoas apaixonadas por deslizar sobre quatro rodas, criando um movimento que influencia e transforma vidas.
+                  Skateboarding é mais que um esporte, é um estilo de vida!
+                </p>
+            </article>
+            <img src="./assets/quemsomos.jpg" alt="quemsomos__img"/>
         </section>
         <!--Nosso Time: foto arrendondadas de pessoas-->
         <section>

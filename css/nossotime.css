@@ -1,16 +1,10 @@
 /*Nosso time*/
 .nossotime{
-    margin: 5%;
-    
+    background-image: url("../assets/miniramp.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-.nossotime__titulo{
-    color: #DD8217;
-    font-weight: 700;
-    font-size: 3.2em;
-    width: 16%;
-    flex-wrap: wrap;
-}
 
 .nossotime__contanier{
     display: flex;
@@ -19,24 +13,43 @@
     align-content: center;
     justify-content: center;
     border-radius: 20%;
-    margin-top: 10%;
-}
-
-.nossotime__card{
-    margin: 2% 5%;
-    background-color: #f5cfa5;
-    position: relative;
-    padding: 4% 2%;
-    justify-items: center;
-    align-items: center;
+    margin-top: 18%;
     
 }
 
+.nossotime__card{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+    background-color: #F0E7DE;
+    padding: 2% 2%;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+}
+
 .nossotime__img{
-    width: 250px;
+    width: 260px;
     height: 250px;
     border-radius: 50%;
     position: absolute;
-    bottom: 70%;
-    right: 4%;
+    bottom: 85%;
+}
+
+.card-title{
+    color: #DD8217;
+    font-weight: bold;
+} 
+
+.line {
+    border-top: 1px solid #686868;
+    width: 100%;
+}
+
+.card-text{
+    align-content: center;
+}
+
+.card__ocupation{
+    font-weight: bold;
 }

@@ -5,13 +5,15 @@ body{
 
 
 .title_section{
+    display: flex;
+    align-self: flex-start;
     font-weight: 700;
     font-size: 3.2em;
     margin-bottom: 20px;
     color: #DD8217;
     width: 16%;
     flex-wrap: wrap;
-    margin: 5%;
+    margin: 8% 5%;
 }
 
 

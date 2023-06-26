@@ -5,22 +5,29 @@
     justify-content: space-between;
     background-color: black;
     color: white;
-    padding: 0px 70px;
+    padding: 20px 70px;
 }
 
 .rodape__contanier{
     display: flex;
     flex-direction: column;
-
+    width: 25%;
+    justify-content: space-between;
 }
 
 .logo-footer{
-    width: 10%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    width: 150px;
+    margin-bottom: 50px;
 }
 
 .rodape__contatotitulo{
-    font-size: 2rem;
+    font-size: 1.78rem;
+    font-weight: 500;
     color: #DD8217;
+}
+
+
+.rodape__socialmedia{
+    width: 20px;
+    
 }

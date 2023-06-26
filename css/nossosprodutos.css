@@ -1,30 +1,40 @@
 .nossoproduto{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-bottom: 10%;
     background-image: url("../assets/corrimaobg.png");
     background-repeat: no-repeat;
-    background-position:  bottom right;;
+    background-position:  bottom right;
 }
 
 .card-group{
-    width: 60%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 10px;
-    text-align: center;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.card-box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0E7DE;
+    border-radius: 10px;
+    margin: 2%;
+}
 
 
 .card-img-tenis{
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
-.card-body{
-    background-color: #F0E7DE;
-    border-radius: 0px 0px 10px 10px;
-    margin: 0px;
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }

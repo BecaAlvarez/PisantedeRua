@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: black;
     color: white;
     padding: 20px 70px;
@@ -11,14 +12,16 @@
 .rodape__contanier{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    justify-content: space-between;
+    justify-content: flex-end;
+    width: 20%;
+    
 }
 
 .logo-footer{
     width: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
+
 
 .rodape__contatotitulo{
     font-size: 1.78rem;
@@ -27,7 +30,9 @@
 }
 
 
+
 .rodape__socialmedia{
-    width: 20px;
-    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }

@@ -10,33 +10,24 @@
     background-position:  bottom right;
 }
 
-.card-group{
+.card-group-box{
     display: flex;
     width: 80%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-self: center;
 }
 
 .card-box{
     width: 25%;
     height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #F0E7DE;
-    border-radius: 10px;
     margin: 2%;
 }
 
 
-.card-img-tenis{
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.card-text{
-    display: flex;
-    justify-content: center;
-    align-self: center;
+.card-price{
+    font-size: 1.2rem;
+    font-weight: 600;
 }

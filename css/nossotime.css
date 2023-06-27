@@ -6,6 +6,7 @@
     background-image: url("../assets/miniramp.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    
 }
 
 
@@ -35,9 +36,9 @@
 }
 
 .nossotime__img{
-    width: 260px;
+    width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 100%;
     position: absolute;
     bottom: 85%;
 }

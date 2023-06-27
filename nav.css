@@ -15,6 +15,7 @@
 .navbar__list{
     display: flex;
     flex-direction: row;
+  
 }
 
 .navbar__link{
@@ -22,6 +23,7 @@
     padding: 10;
     text-decoration: none;
     color: white;
+    
 }
 
 .navbar__link:hover{
@@ -31,6 +33,18 @@
 
 
 .navbar__logo{
-    width: 6%;
+    width: 100px;
+}
+
+.navbar__navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__icon{
+    display: flex;
+    justify-content: baseline;
+    width: 50px;
+    
 }
 

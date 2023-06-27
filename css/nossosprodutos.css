@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
     background-image: url("../assets/corrimaobg.png");
     background-repeat: no-repeat;
     background-position:  bottom right;
@@ -17,6 +16,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
+    margin-bottom: 10%;
 }
 
 .card-box{

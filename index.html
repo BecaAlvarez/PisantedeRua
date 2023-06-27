@@ -26,16 +26,15 @@
         <nav class="navbar">
             <img src="./assets/logo_branco.png" alt="Logo Pisante de Rua" class="navbar__logo"/> 
             <ul class="navbar__list">
-                <li class="navbar__item"><a href="#" class="navbar__link">Quem somos</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Nosso time</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Nossos produtos</a></li>
+                <li class="navbar__item"><a href="#quemsomossection" class="navbar__link">Quem somos</a></li>
+                <li class="navbar__item"><a href="#nossotimesection" class="navbar__link">Nosso time</a></li>
+                <li class="navbar__item"><a href="#nossoprodutosection" class="navbar__link">Nossos produtos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <!--Carousel: cada imagem
-deve ter uma frase de impacto.-->
-        <section >
+        <!--Carousel-->
+        <section id="carouselsection">
             <!--lista-->
             
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -50,7 +49,7 @@ deve ter uma frase de impacto.-->
               <div class="carousel-inner">
                 
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="./assets/carousel-02.jpg" alt="Primeiro Slide">
+                  <img class="d-block w-100 carousel-item__img" src="./assets/carousel-02.jpg" alt="Primeiro Slide">
                 </div>
 
                 <div class="carousel-item">
@@ -66,7 +65,7 @@ deve ter uma frase de impacto.-->
                 </div>
 
                 <div class="carousel__card">
-                  <p class="carousel__card-text">OS MELHORES TÊNIS PARA SEU ROLÊ ESTÁ AQUI!</p>
+                  <p class="carousel__card-text">OS <span class="carousel__card-text" style="color: #e99739;">MELHORES TÊNIS</span> PARA SEU ROLÊ ESTÁ AQUI!</p>
                   <a href="#nossoprodutosection" class="carousel__card-btn">Conferir</a>
                 </div>
               </div>
@@ -82,7 +81,7 @@ deve ter uma frase de impacto.-->
             </div>
         </section>
         <!--Quem somos-->
-        <section class="quemsomos">
+        <section class="quemsomos" id="quemsomossection">
             <article class="quemsomos__contaniertext">
                 <h3 class="quemsomos__titulo">Somos uma Familia que se formou em  ladeiras e ruas</h3>
                 <p class="quemsomos__text"> Temos o skateboarding na veia e no coração. Skate é muito mais do que um esporte,
@@ -95,7 +94,7 @@ deve ter uma frase de impacto.-->
             <img src="./assets/quemsomos.jpg" alt="skatista" class="quemsomos__img"/>
         </section>
         <!--Nosso Time-->
-        <section class="nossotime">
+        <section class="nossotime" id="nossotimesection">
             <h1 class="title_section">Nosso Time de Feras</h1>
             <div class="nossotime__contanier">
               <figure class="nossotime__card">
@@ -142,6 +141,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/tenisnike.png" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">Nike SB</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
@@ -154,6 +154,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/allstar-converse.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">AllStar Converse</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
@@ -166,6 +167,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/nikesb-02.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">Nike SB bob</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
@@ -178,6 +180,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/adidas-white.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">Adidas Skateboarding</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
@@ -190,6 +193,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/nikesb_marrom.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">Nike SB brown</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
@@ -202,6 +206,7 @@ deve ter uma frase de impacto.-->
                 <img class="card-img-top" src="./assets/vans-verde.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
                   <h3 class="card-title">Vans Verde</h3>
+                  <div class="line"></div>
                   <p class="card-text">
                     Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.
                     Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.

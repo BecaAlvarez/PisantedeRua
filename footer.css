@@ -3,36 +3,47 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items:start;
     background-color: black;
-    color: white;
+    color: #acacac;
     padding: 20px 70px;
+}
+
+.rodape__contanier-rights{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
 }
 
 .rodape__contanier{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    width: 20%;
+    justify-content:  center;
+    align-content: space-between;
     
 }
 
 .logo-footer{
     width: 120px;
-    margin-bottom: 100px;
+    height: 80px;
+    margin-top: 16px;
+    margin-bottom: 10px;
 }
 
+.rodape__contanier-infor{
+    display: flex;
+    flex-direction: row;
+}
 
-.rodape__contatotitulo{
-    font-size: 1.78rem;
+.rodape__titulo{
+    font-size: 1.2rem;
     font-weight: 500;
     color: #DD8217;
 }
 
-
-
-.rodape__socialmedia{
-    width: 50%;
+.rodape__socialmedia{ 
     display: flex;
     justify-content: space-between;
+    margin-right: 100px;
+    margin-bottom: 38px;
 }

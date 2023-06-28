@@ -17,6 +17,11 @@
     justify-content: center;
     align-self: center;
     margin-bottom: 10%;
+    border: none;
+}
+
+.card-box-style{
+    border-radius: 10px;
 }
 
 .card-box{
@@ -26,6 +31,10 @@
     margin: 2%;
 }
 
+.card-img-top-style{
+    border-radius: 10px 10px 0 0;
+    
+}
 
 .card-price{
     font-size: 1.2rem;

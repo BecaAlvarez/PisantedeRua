@@ -1,43 +1,88 @@
 /*Quem somos*/
 .quemsomos{
     display: flex;
-    flex-direction: row;
     position: relative;
     background-color: white;
-    align-items: center;
-    justify-content: space-around;
-    background-image: url("../assets/bowlskt.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-top: 2%;
+
 }
 
 .quemsomos__contaniertext{
-    width: 26%;
     display: flex;
     flex-direction: column;
-    text-align: justify;
-    margin-left: 10%;
-    margin-top: 6%;
     
 }
 
 .quemsomos__titulo{
     font-weight: 700;
-    font-size: 3.2em;
-    margin-bottom: 20px;
     color: #DD8217;
 }
 
-.quemsomos__text{
-    font-size: 1.2em;
-    
+
+@media screen and (min-width: 0){
+    .quemsomos{
+        flex-direction: column;
+        align-items:start;
+        justify-content: space-around;
+        align-content: flex-start;
+        background-image: none;
+        height: 100vh;
+        margin-top: 2%;
+        margin-left: 12%;
+    }
+    .quemsomos__contaniertext{
+        width: 30%;
+        margin-top: 3%;
+        text-align:start;
+    }
+    .quemsomos__titulo{
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .quemsomos__text{
+        font-size: 1em;
+    }
+    .quemsomos__img{
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        margin-left: 4%;
+    }
 }
 
-.quemsomos__img{
-    width: 20%;
-    height: 40%;
-    border-radius: 50%;
-    margin-right: 8%;
+
+
+@media screen and (min-width: 768px){
+    .quemsomos{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url("../assets/bowlskt.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        margin-top: 2%;
+        margin-left: 0;
+    }
+    .quemsomos__contaniertext{
+        width: 24%;
+        margin-left: 12%;
+        margin-top: 6%;
+        text-align:justify;
+    }
+    .quemsomos__titulo{
+        font-size: 3.2em;
+        margin-bottom: 20px;
+    }
+    
+    .quemsomos__text{
+        font-size: 1.2em;
+        
+    }
+    .quemsomos__img{
+        width: 20%;
+        height: 40%;
+        border-radius: 100%;
+        margin-right: 10%;
+    }
 }

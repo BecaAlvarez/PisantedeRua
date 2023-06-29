@@ -1,24 +1,14 @@
 /*Nosso time*/
 .nossotime{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    background-image: url("../assets/miniramp.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    
 }
 
 
 .nossotime__contanier{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    margin-top: 2%;
-    
+    width: 100%;   
 }
 
 .nossotime__card{
@@ -26,20 +16,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 5%;
     background-color: #F0E7DE;
-    padding: 2%;
     border-radius: 10px;
     align-items: center;
     position: relative;
 }
 
 .nossotime__img{
-    width: 250px;
-    height: 250px;
     border-radius: 100%;
     position: absolute;
-    bottom: 85%;
 }
 
 .card-title{
@@ -62,4 +47,55 @@
 
 .card__ocupation{
     font-weight: bold;
+}
+
+
+@media screen and (min-width: 0) {
+    .nossotime{
+        flex-direction: column;
+        background-image: none; 
+    }
+    .nossotime__contanier{
+        flex-direction: column;
+        align-content:flex-start;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .nossotime__card{
+        margin: 9% 5%;
+        padding: 2%;
+    }
+    .nossotime__img{
+        width: 125px;
+        height: 125px;
+        bottom: 90%;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    .nossotime{
+        flex-direction: row;
+        background-image: url("../assets/miniramp.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .nossotime__contanier{
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .nossotime__card{
+        margin: 5%;
+        padding: 2%;
+    }
+    
+    .nossotime__img{
+        width: 250px;
+        height: 250px;
+        bottom: 85%;
+    }
+    
 }

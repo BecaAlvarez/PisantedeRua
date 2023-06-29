@@ -20,37 +20,27 @@
 
 /*Card Frase*/
 .carousel__card{
-    width: 32%;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    justify-content: center;
-    align-content:start;
-    top: 10%;
-    left: 15%;
-    padding: 10px 20px;
     
+    top: 10%;
 }
 
-
 .carousel__card-text{
-    font-size: 5rem;
     font-weight:900;
     color: white;
 }
 
 .carousel__card-btn{
     display: flex;
-    width:99%;
     height: 50px;
-    border: 1px solid white;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     color: white;
+    border: 1px solid white;
     font-weight: 700;
-    font-size: 1.05rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel__card-btn:hover{
@@ -58,4 +48,45 @@
     border: none;
     color: white;
     background-color: #686868;
+}
+
+
+@media screen and (min-width: 0) {
+    .carousel__card{
+        width: 16%;
+        padding: 10px 10px;
+        left: 20%;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .carousel__card-text{
+        font-size: 3rem;
+    }
+
+    .carousel__card-btn{
+        width:99%;
+        border-radius: 5px;
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .carousel__card{
+        width: 32%;
+        padding: 10px 20px;
+        left: 15%;
+        justify-content: center;
+        align-content:start;
+    }
+    .carousel__card-text{
+        font-size: 5rem;
+    }
+    .carousel__card-btn{
+        width:99%;
+        border-radius: 10px;
+        font-size: 1.05rem;
+    }
+    
 }

@@ -3,21 +3,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    background-image: url("../assets/corrimaobg.png");
-    background-repeat: no-repeat;
-    background-position:  bottom right;
 }
 
 .card-group-box{
     display: flex;
-    width: 80%;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-self: center;
-    margin-bottom: 10%;
     border: none;
+    width: 80%;
 }
 
 .card-box-style{
@@ -37,6 +29,54 @@
 }
 
 .card-price{
-    font-size: 1.2rem;
     font-weight: 600;
+}
+
+
+@media screen and (min-width: 0){
+    .nossoproduto{
+        justify-content:flex-start;
+        background-image: none;
+    }
+    .card-group-box{
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 10%;
+    }
+    .card-box-style{
+        width: 40%;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+
+    .card__description{
+        font-size:  0.9rem;
+    }
+    .card-price{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .nossoproduto{
+        justify-content: center;
+        background-image: url("../assets/corrimaobg.png");
+        background-repeat: no-repeat;
+        background-position:  bottom right;
+    }
+    .card-group-box{
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 15%;
+    }
+    .card-box-style{
+        width: 25%;
+    }
+    .card-price{
+        font-size: 1.2rem;
+    }
 }

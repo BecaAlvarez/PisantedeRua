@@ -14,7 +14,6 @@
 .nossotime__card{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #F0E7DE;
     border-radius: 10px;

@@ -10,7 +10,6 @@ body{
     font-weight: 700;
     margin-bottom: 20px;
     color: #DD8217;
-    width: 16%;
     flex-wrap: wrap;
     margin: 8% 5%;
 }
@@ -18,20 +17,14 @@ body{
 
 @media screen and (min-width: 0){
     .title_section{
-        font-weight: 700;
         font-size: 1.6em;
-        margin-bottom: 20px;
-        width: 16%;
-        margin: 8% 5%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 768px){
     .title_section{
-        font-weight: 700;
         font-size: 3.2em;
-        margin-bottom: 20px;
         width: 16%;
-        margin: 8% 5%;
     }
 }

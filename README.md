@@ -3,7 +3,7 @@
 # Pisante de Rua :athletic_shoe:
 Loja e-commerce de Tênis para aspirantes e atletas na modalidade Skateboard
 
-## Programa Bootcamp Nubank + Descomplica
+## Programa Bootcamp Instituto Nu + Descomplica
 Este projeto foi elaborado como parte avaliativa das atividades praticas do modulo "HTML, CSS e Bootstrap", o qual consiste na construção de uma loja virtual com Bootstrap.
 
 ### :page_facing_up: Requisitos

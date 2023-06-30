@@ -23,8 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    
-    top: 10%;
+    top: 20%;
 }
 
 .carousel__card-text{
@@ -45,27 +44,25 @@
 
 .carousel__card-btn:hover{
     text-decoration: none;
-    border: none;
     color: white;
-    background-color: #686868;
 }
 
 
 @media screen and (min-width: 0) {
     .carousel__card{
-        width: 16%;
+        width: 20%;
         padding: 10px 10px;
-        left: 20%;
+        left: 40%;
         justify-content: center;
         align-content: center;
         
     }
     .carousel__card-text{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .carousel__card-btn{
-        width:99%;
+        width:100%;
         border-radius: 5px;
         font-size: 0.7rem;
     }
@@ -81,10 +78,10 @@
         align-content:start;
     }
     .carousel__card-text{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .carousel__card-btn{
-        width:99%;
+        width:98%;
         border-radius: 10px;
         font-size: 1.05rem;
     }

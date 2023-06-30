@@ -56,18 +56,18 @@
     }
     .nossotime__contanier{
         flex-direction: column;
-        align-content:flex-start;
+        align-content:center;
         justify-content: center;
-        margin-top: 4%;
+        margin-top: 15%;
     }
     .nossotime__card{
-        margin: 9% 5%;
+        margin: 20% 5%;
         padding: 2%;
     }
     .nossotime__img{
         width: 125px;
         height: 125px;
-        bottom: 90%;
+        bottom: 95%;
     }
     
 }

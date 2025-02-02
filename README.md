@@ -23,6 +23,7 @@ Este projeto foi elaborado como parte avaliativa das atividades praticas do modu
 - Texto: Rebeca Alvarez
 
 ## :art: Protótipo
+![Image](https://github.com/user-attachments/assets/8f0080d7-1332-473b-8c55-d9efd83ceef4)
 Modelo disponivel em [Figma](https://www.figma.com/file/YmgTodiBDceBKX21fpIPJo/PisanteDeRua?type=design&node-id=0%3A1&mode=design&t=lpGp2v3OtqRjZFVM-1)
 <br/>
 <br/>
